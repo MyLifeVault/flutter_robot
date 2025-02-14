@@ -4,9 +4,9 @@
 
 # Flutter Robot 🤖📱
 
-Create a widget testes using the Robot Pattern!
+Create widget tests using the Robot Pattern!
 
-It is a good option to create testes to your `page` validating the correct interaction between (controller) <-> (widget). This way you can validate if your view show/do exactly you expected in each state of controller(cubit/bloc/mobx/etc).
+It is a good option to create tests for your `page`, validating the correct interaction between (controller) <-> (widget). This way you can validate if your views do exactly what you expect in each controller state (cubit/bloc/mobx/etc).
 
 | Progress | Feature |
 |----------|----------|
@@ -33,7 +33,7 @@ my_project
 │      
 └───lib
 │   ...
-└───test
+└───
     │
     └───feature
         │   feature_robot.dart
